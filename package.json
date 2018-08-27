@@ -1,0 +1,24 @@
+{
+  "name": "npm-repo-manifest",
+  "version": "1.0.0",
+  "description": "This package reads a manifest file for the android \"repo\" commad\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skulasekar/npm-repo-manifest.git"
+  },
+  "keywords": [
+    "npm",
+    "repo",
+    "manifest"
+  ],
+  "author": "Santhosh Kulasekar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skulasekar/npm-repo-manifest/issues"
+  },
+  "homepage": "https://github.com/skulasekar/npm-repo-manifest#readme"
+}
