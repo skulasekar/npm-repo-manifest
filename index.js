@@ -54,7 +54,7 @@ function process(err, data) {
       //        .concat(orig_git_url)
 
        console.log(command)
-       if(index === 0) {
+       // if(index === 0) {
          var proc = child_process.spawn(command, [new_project_name, orig_git_url])
          proc.stdout.on("data", function(data) {
            console.log(data.toString())
@@ -66,7 +66,7 @@ function process(err, data) {
            console.log("Finished Execution")
            // Call back some function here
          });
-       }
+       // }
     })
   });
 
