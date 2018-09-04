@@ -46,13 +46,6 @@ function process(err, data) {
       var new_git_url = new_remote + (new_remote.charAt(new_remote.length - 1) == '/' ? new_project_name : "/" + new_project_name) + ".git"
       new_git_urls.push(new_git_url)
 
-      // console.dir(new_project_name + " " + orig_git_url)
-
-      // command.concat(" ")
-      //        .concat(new_project_name)
-      //        .concat(" ")
-      //        .concat(orig_git_url)
-
        console.log(command)
        // if(index === 0) {
          var proc = child_process.spawn(command, [new_project_name, orig_git_url])

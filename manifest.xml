@@ -80,7 +80,7 @@
     <project name="rdkb/docs" />
     <project name="tools/tdk" />
     <project name="tools/tdkb" />
-    <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdk/daisy" />
+    <!-- <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdk/daisy" />
     <project name="rdk/components/opensource/oe/meta-browser" path="meta-browser" revision="rdk/daisy" />
     <project name="rdk/components/opensource/oe/meta-java" path="meta-java" revision="rdk/daisy" />
     <project name="rdk/components/opensource/oe/meta-openembedded" path="meta-openembedded" revision="rdk/daisy" />
@@ -91,5 +91,5 @@
     <project name="rdk/components/opensource/oe/openembedded-core" path="openembedded-core" revision="rdk/daisy" />
     <project name="rdk/components/opensource/oe/meta-rtlwifi" path="meta-rtlwifi" revision="rdk/daisy" />
     <project name="rdk/components/opensource/oe/meta-jz-mips" path="meta-jz-mips" revision="rdk/daisy" />
-    <project name="Metrological/meta-metrological" remote="github" path="meta-metrological" revision="c8a66ff9e2d6c480d0f2f17408cea1d7cadc4885" upstream="master" />
+    <project name="Metrological/meta-metrological" remote="github" path="meta-metrological" revision="c8a66ff9e2d6c480d0f2f17408cea1d7cadc4885" upstream="master" /> -->
 </manifest>

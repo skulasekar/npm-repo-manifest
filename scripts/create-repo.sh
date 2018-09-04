@@ -30,6 +30,8 @@ git clone $2
 # cd into the cloned repo
 cd $1
 
+sleep(1)
+
 # Curl json to the github API
 curl -u ${GITHUBUSER}:${GITHUBPASSWORD} https://api.github.com/orgs/cablelabs/repos -d "{\"name\": \"${1}\", \"description\": \"\", \"private\": false, \"has_issues\": true, \"has_downloads\": true, \"has_wiki\": false}"
 
