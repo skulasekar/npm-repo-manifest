@@ -31,7 +31,7 @@ git clone $2
 cd $1
 
 # Curl json to the github API
-curl -u ${GITHUBUSER} https://api.github.com/orgs/cablelabs/repos -d "{\"name\": \"${1}\", \"description\": \"\", \"private\": false, \"has_issues\": true, \"has_downloads\": true, \"has_wiki\": false}"
+curl -u ${GITHUBUSER}:${GITHUBPASSWORD} https://api.github.com/orgs/cablelabs/repos -d "{\"name\": \"${1}\", \"description\": \"\", \"private\": false, \"has_issues\": true, \"has_downloads\": true, \"has_wiki\": false}"
 
 # Set the freshly created repo to the origin and push
 # You'll need to have added your public key to your github account
