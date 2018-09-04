@@ -80,7 +80,6 @@
     <project name="rdkb/docs" />
     <project name="tools/tdk" />
     <project name="tools/tdkb" />
-
     <project name="rdk/components/opensource/oe/bitbake" path="openembedded-core/bitbake" revision="rdk/daisy" />
     <project name="rdk/components/opensource/oe/meta-browser" path="meta-browser" revision="rdk/daisy" />
     <project name="rdk/components/opensource/oe/meta-java" path="meta-java" revision="rdk/daisy" />

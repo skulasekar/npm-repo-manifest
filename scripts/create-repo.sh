@@ -2,8 +2,8 @@
 #!/bin/bash
 
 # https://gist.github.com/robwierzbowski/5430952/
-# Create and push to a new github repo from the command line.  
-# Grabs sensible defaults from the containing folder and `.gitconfig`.  
+# Create and push to a new github repo from the command line.
+# Grabs sensible defaults from the containing folder and `.gitconfig`.
 # Refinements welcome.
 
 # Gather constant vars
@@ -16,7 +16,13 @@
 #read "DESCRIPTION?Repo Description:"
 
 echo "Here we go..."
+echo $1 $2
 
+git clone $2
+echo $1
+cd $1
+
+pwd
 # Curl some json to the github API oh damn we so fancy
 curl -u ${GITHUBUSER} https://api.github.com/orgs/cablelabs/repos -d "{\"name\": \"${1}\", \"description\": \"${DESCRIPTION}\", \"private\": false, \"has_issues\": true, \"has_downloads\": true, \"has_wiki\": false}"
 
