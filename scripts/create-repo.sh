@@ -21,6 +21,9 @@ if [ $# -lt 2 ]
     echo "Incorrect arguments supplied, please fix and retry"
 fi
 
+# cd into working directory
+cd $WORKING_DIR
+
 # Clone the old repo
 git clone $2
 
