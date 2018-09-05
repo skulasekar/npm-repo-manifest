@@ -61,10 +61,10 @@
     <project name="rdkb/components/opensource/ccsp/hotspot" />
     <project name="rdkb/components/opensource/ccsp/sysint" />
     <project name="rdkb/components/opensource/ccsp/webui" />
-    <project name="rdkb/devices/intel-x86-pc/emulator/sysint" path="rdkb/components/opensource/ccsp/sysint/device" />
+    <!-- <project name="rdkb/devices/intel-x86-pc/emulator/sysint" path="rdkb/components/opensource/ccsp/sysint/device" /> -->
     <project name="rdkb/devices/intel-x86-pc/emulator/tdkb" path="tools/tdkb/platform/rdkbemulator" />
     <project name="rdkb/devices/raspberrypi/hal" />
-    <project name="rdkb/devices/raspberrypi/sysint" path="rdkb/components/opensource/ccsp/sysint/devicerpi" />
+    <!-- <project name="rdkb/devices/raspberrypi/sysint" path="rdkb/components/opensource/ccsp/sysint/devicerpi" /> -->
     <project name="rdkb/devices/rdkbemu/ccsp/rdkb" path="rdkb/components/generic/CcspLogAgent/devices" />
     <project name="rdkb/devices/rdkbemu/ccsp/rdkb" path="rdkb/components/opensource/ccsp/CcspCr/devices" />
     <project name="rdkb/devices/rdkbemu/ccsp/rdkb" path="rdkb/components/opensource/ccsp/CcspLMLite/devices" />
