@@ -15,6 +15,10 @@ var new_remote = "https://github.com/cablelabs/"
 var command = "./scripts/create-repo.sh"
 var child_process = require('child_process');
 
+function createNewProjectName(project_name){
+  return project_name.split('/').pop()
+}
+
 function process(err, data) {
   parseString(data.content, function (err, result) {
     // console.dir(result)
@@ -41,9 +45,7 @@ function process(err, data) {
       original_git_urls.push(orig_git_url);
 
       // Add the new git url for creation
-      var new_project_name = function(){
-        return project_name.split('/').pop()
-      }
+      var new_project_name = createNewProjectName();
       // console.dir(new_project_name)
       var new_git_url = new_remote + (new_remote.charAt(new_remote.length - 1) == '/' ? new_project_name : "/" + new_project_name) + ".git"
       new_git_urls.push(new_git_url)
