@@ -51,7 +51,7 @@ function process(err, data) {
       new_git_urls.push(new_git_url)
 
        console.log(command)
-       // if(index === 0) {
+       if(index === 0) {
          var proc = child_process.spawn(command, [new_project_name, orig_git_url])
          proc.stdout.on("data", function(data) {
            // console.log("INFO: " + data.toString())
@@ -63,7 +63,7 @@ function process(err, data) {
            console.log("Finished Execution of module " + new_project_name)
            // Call back some function here
          });
-       // }
+       }
     })
   });
 
