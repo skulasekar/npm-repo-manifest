@@ -45,7 +45,7 @@ function process(err, data) {
       original_git_urls.push(orig_git_url);
 
       // Add the new git url for creation
-      var new_project_name = createNewProjectName();
+      var new_project_name = createNewProjectName(project_name);
       // console.dir(new_project_name)
       var new_git_url = new_remote + (new_remote.charAt(new_remote.length - 1) == '/' ? new_project_name : "/" + new_project_name) + ".git"
       new_git_urls.push(new_git_url)
