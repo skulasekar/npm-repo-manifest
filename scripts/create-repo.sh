@@ -11,7 +11,7 @@ fi
 cd $WORKING_DIR
 
 # Clone the old repo
-git clone $2
+git clone $2 $1
 
 # cd into the cloned repo
 cd $1
